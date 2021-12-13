@@ -1,0 +1,128 @@
+:root {
+    --main-color: #AABBCC;
+    --main-modal-color: #A6D3F1 ;
+    --second-color: #2B2B2B;
+    --second-modal-color: rgba(43, 43, 43, .5);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--second-color);
+    background-color: var(--main-modal-color);
+}
+
+body {
+    margin: 20px auto;
+    overflow-x: hidden;
+    max-width: 950px;
+}
+
+a {
+    font-weight: bold;
+    color: var(--second-color);
+    transition: all .3s ease-out;
+}
+
+a:hover {
+    color: var(--second-modal-color);
+}
+
+p {
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Header h1 {
+    word-wrap: break-word;
+}
+
+.Header img {
+    margin: 0 center;
+    display: block;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.Header nav {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logo{  
+    text-align: center;
+}
+
+.text1{
+    
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.inmedge{
+    width: 250px;
+    display:block;
+    margin:auto
+}
+
+
+.inicios{
+    margin-top: 60px;
+}
+
+.text2{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: justify;
+}
+.text3{
+    margin-left: 20px;
+    text-align: justify;
+    
+}
+
+.lista{
+    margin-left: 20px;
+}
+
+.lista2{
+    float: left;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+.diagrama{
+    float: right;
+    margin-right: 45px;
+    margin-top: -20px;
+}
+.banner{
+    float: left;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.video{
+ justify-content: center;
+ text-align: center;   
+}
